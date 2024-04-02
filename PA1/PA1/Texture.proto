@@ -1,0 +1,16 @@
+//----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message Texture_proto
+{	
+	// Define Message here:  
+		optional bytes poData = 1;
+	    optional uint32 DataSize = 2;
+}
+
+// --- End of File ---

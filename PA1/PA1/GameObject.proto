@@ -1,0 +1,23 @@
+//----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+import "Vect.proto";
+import "Matrix.proto";
+
+message GameObject_proto
+{
+	// Define Message here:  
+	//external
+	optional Matrix_proto poMatrix = 1;
+	optional Vect_proto poVect = 2;
+	//in class
+	optional float   x = 3;
+	optional sint32  i = 4;
+	optional Vect_proto vA = 5;
+}
+
+// --- End of File ---

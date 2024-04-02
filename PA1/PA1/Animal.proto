@@ -1,0 +1,17 @@
+//----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message Animal_proto
+{
+	// Define Message here:  
+	optional float   a = 1;
+	optional float   b = 2;
+	optional float   c = 3;
+}
+
+// --- End of File ---
