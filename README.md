@@ -35,7 +35,7 @@ GAM575 focused on real-time software development with asset conversion. Topics i
 * Run ConverterAnim.sln
 * Run Engine.sln
 * The following scene is rendered:
-  
+  ![image](https://github.com/Waachel/GAM575/assets/12739252/32dc82d1-1c71-4756-9078-b4e3bc081f90)
 * Controls:
   * G to play
   * P to pause
